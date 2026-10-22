@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { RealtimeChannel, User } from "@supabase/supabase-js";
 import { MessageCircleHeart, Plus, Search, UserSearch } from "lucide-react";
-import Auth from "./components/Auth";
+import Auth from './Auth'
 import Sidebar from "./components/Sidebar";
 import ChatView from "./components/Chat";
 import DevPanel from "./components/DevPanel";
