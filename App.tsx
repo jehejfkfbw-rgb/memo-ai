@@ -2,11 +2,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { RealtimeChannel, User } from "@supabase/supabase-js";
 import { MessageCircleHeart, Plus, Search, UserSearch } from "lucide-react";
 import Auth from './Auth'
-import Sidebar from "./components/Sidebar";
-import ChatView from "./components/Chat";
-import DevPanel from "./components/DevPanel";
-import Maintenance from "./components/Maintenance";
-import Logo from "./components/Logo";
+import Sidebar from "./Sidebar";
+import ChatView from "./Chat";
+import DevPanel from "./DevPanel";
+import Maintenance from "./Maintenance";
+import Logo from "./Logo";
 import { Btn, ToastProvider, useToast } from "./components/ui";
 import { FindGroupDialog, FindUserDialog, ForceNameDialog, InviteDialog, JoinCodeDialog, NewGroupDialog, ProfileDialog, type Prefs } from "./components/Dialogs";
 import { ping, sb, showPhone, type Conv, type Msg, type Profile } from "./lib/sb";
