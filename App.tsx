@@ -7,8 +7,8 @@ import ChatView from "./Chat";
 import DevPanel from "./DevPanel";
 import Maintenance from "./Maintenance";
 import Logo from "./Logo";
-import { Btn, ToastProvider, useToast } from "./components/ui";
-import { FindGroupDialog, FindUserDialog, ForceNameDialog, InviteDialog, JoinCodeDialog, NewGroupDialog, ProfileDialog, type Prefs } from "./components/Dialogs";
+import { Btn, ToastProvider, useToast } from "./ui";
+import { FindGroupDialog, FindUserDialog, ... } from "./Dialogs";
 import { ping, sb, showPhone, type Conv, type Msg, type Profile } from "./lib/sb";
 
 type Dialog = null | "findUser" | "findGroup" | "newGroup" | "joinCode" | "invite" | "profile";
